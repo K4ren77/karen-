@@ -1,0 +1,27 @@
+body 
+{background-color: rgb(255, 255, 255);}
+h1
+{color: rgb(0, 124, 233);}
+.parrafo
+{color: aliceblue;
+background-color: blueviolet;}
+#holi 
+{color: aqua;}
+#contenedor1 {
+    width:95vw;
+    height:20vw;
+    border:4px solid blueviolet;
+}
+#contenedor2 {
+    width: 95vw;
+    height: 10vw;
+    border:4px solid black;
+    margin: 3px 
+}
+.beb {
+    width: 12%;
+    height: 12%;
+    background-color: rgb(255, 207, 239);
+    border: 2px solid #e9b9ff;
+    margin: 3px;
+}

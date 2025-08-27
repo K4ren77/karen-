@@ -4,7 +4,7 @@ h1
 {color: rgb(254, 19, 140);}
 .parrafo
 {color: aliceblue;
-background-color: rgb(119, 4, 226);}
+background-color: blueviolet;}
 #holi 
 {color: aqua;}
 #contenedor1 {
@@ -53,4 +53,136 @@ background-color: rgb(119, 4, 226);}
     top: 24%
 
 }
+/***********************/
+/* Estilo dibujo*/
+#tituloDibujo {
+text-align: center;
+}
+
+#lienzo {
+width: 700px;
+height: 600px;
+background-image: url("https://static.vecteezy.com/system/resources/previews/036/153/903/non_2x/cute-elephant-sitting-and-waving-hand-cartoon-icon-illustration-animal-love-icon-concept-isolated-premium-flat-cartoon-style-vector.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+border: 1px solid black;
+margin: 0 auto;
+position: relative;
+}
+
+.cuadrado {
+    width: 100px;
+    height: 180px;
+    background-color: rgb(174, 176, 176);
+    border: 3px solid rgb(112, 112, 112); /* borde de la figura: grosor, estilo, color */
+    position: absolute;
+    top: 400px;
+    left: 230px;
+}
+ .cuadrado2 {
+    width: 100px;
+    height: 180px;
+    background-color: rgb(174, 176, 176);
+    border: 3px solid rgb(112, 112, 112); /* borde de la figura: grosor, estilo, color */
+    position: absolute;
+    top: 400px;
+    left: 356px;
+}
+.ovalo2 {
+    width: 140px; /* ancho */
+    height: 230px; /* alto */
+    background-color: rgb(174, 176, 176); /* color de fondo */
+    border-radius: 60%; /* redondea los bordes de la figura*/
+    border: 3px solid rgb(112, 112, 112); /* borde de la figura: grosor, estilo, color */
+    position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
+    top: 155px; /* posición desde el borde superior del lienzo */
+    left: 70px; /* posición desde el borde izquierdo del lienzo */
+    transform:rotate(10deg);
+}
+.ovalo {
+    width: 140px; /* ancho */
+    height: 230px; /* alto */
+    background-color: rgb(174, 176, 176); /* color de fondo */
+    border-radius: 60%; /* redondea los bordes de la figura*/
+    border: 3px solid rgb(112, 112, 112); /* borde de la figura: grosor, estilo, color */
+    position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
+    top: 155px; /* posición desde el borde superior del lienzo */
+    left: 470px; /* posición desde el borde izquierdo del lienzo */
+    transform:rotate(-10deg);
+}
+.patita1 {
+    width: 150px; /* ancho */
+    height: 120px; /* alto */
+    background-color: rgb(174, 176, 176); /* color de fondo */
+    border-radius: 60%; /* redondea los bordes de la figura*/
+    border: 3px solid rgb(112, 112, 112); /* borde de la figura: grosor, estilo, color */
+    position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
+    top: 455px; /* posición desde el borde superior del lienzo */
+    left: 395px; /* posición desde el borde izquierdo del lienzo */
+    transform:rotate(20deg);
+}
+.patita2 {
+    width: 150px; /* ancho */
+    height: 120px; /* alto */
+    background-color: rgb(174, 176, 176); /* color de fondo */
+    border-radius: 60%; /* redondea los bordes de la figura*/
+    border: 3px solid rgb(112, 112, 112); /* borde de la figura: grosor, estilo, color */
+    position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
+    top: 455px; /* posición desde el borde superior del lienzo */
+    left: 135px; /* posición desde el borde izquierdo del lienzo */
+    transform:rotate(-20deg);
+}
+.circulo {
+    width: 380px; /* ancho */
+    height: 370px; /* alto */
+    background-color: rgb(174, 176, 176); /* color de fondo */
+    border-radius: 60%; /* redondea los bordes de la figura*/
+    border: 3px solid rgb(112, 112, 112); /* borde de la figura: grosor, estilo, color */
+    position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
+    top: 100px; /* posición desde el borde superior del lienzo */
+    left: 145px; /* posición desde el borde izquierdo del lienzo */
+}
+.ojo1 {
+     width: 80px; /* ancho */
+    height: 80px; /* alto */
+    background-color: rgb(0, 0, 0); /* color de fondo */
+    border-radius: 60%; /* redondea los bordes de la figura*/
+    border: 3px solid rgb(50, 50, 50); /* borde de la figura: grosor, estilo, color */
+    position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
+    top: 220px;
+    left: 210px;
+
+}
+.ojo2 {
+ width: 80px; /* ancho */
+    height: 80px; /* alto */
+    background-color: rgb(0, 0, 0); /* color de fondo */
+    border-radius: 60%; /* redondea los bordes de la figura*/
+    border: 3px solid rgb(50, 50, 50); /* borde de la figura: grosor, estilo, color */
+    position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
+    top: 220px;
+    left: 380px
+}
+.ojo3 {
+     width: 30px; /* ancho */
+    height: 30px; /* alto */
+    background-color: rgb(255, 255, 255); /* color de fondo */
+    border-radius: 60%; /* redondea los bordes de la figura*/
+    border: 3px solid rgb(50, 50, 50); /* borde de la figura: grosor, estilo, color */
+    position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
+    top: 230px;
+    left: 218px;
+
+}
+.ojo4 {
+ width: 30px; /* ancho */
+    height: 30px; /* alto */
+    background-color: rgb(252, 252, 252); /* color de fondo */
+    border-radius: 60%; /* redondea los bordes de la figura*/
+    border: 3px solid rgb(50, 50, 50); /* borde de la figura: grosor, estilo, color */
+    position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
+    top: 230px;
+    left: 388px
+}
+
 

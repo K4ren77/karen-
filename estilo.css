@@ -1,12 +1,14 @@
 body 
 {background-color: rgb(255, 255, 255);}
 h1
-{color: rgb(254, 19, 140);}
+{color: rgb(253, 24, 143);}
 .parrafo
 {color: aliceblue;
 background-color: blueviolet;}
 #holi 
 {color: aqua;}
+
+
 #contenedor1 {
     width:40vw;
     height:10vw;
@@ -24,6 +26,7 @@ background-color: blueviolet;}
     align-items: stretch;
     flex-direction: column-reverse;
 }
+
 .beb {
     width: 12%;
     height: 12%;
@@ -38,7 +41,7 @@ background-color: blueviolet;}
     background-color: rgb(255, 207, 239);
     border: 2px solid #e9b9ff;
     margin: 3px;
-    
+    animation: redondear 3s linear infinite alternate
 }
 #cuadro1 {
     left:0%;
@@ -53,6 +56,25 @@ background-color: blueviolet;}
     top: 24%
 
 }
+
+@keyframes redondear {
+    0% {
+      border-radius: 0% ;  
+      background-color: rgba(174, 195, 253, 0.87);
+      margin: 3px
+    }
+    25% {
+        border radius: 30%;
+        background-color: rgb(39, 108, 245);
+        margin: 13px
+    }
+    100%{
+          border radius: 60%;
+          background-color: rgb(176, 39, 245);
+          margin: 23px
+    }
+}
+
 /***********************/
 /* Estilo dibujo*/
 #tituloDibujo {
@@ -92,24 +114,34 @@ position: relative;
     width: 140px; /* ancho */
     height: 230px; /* alto */
     background-color: rgb(174, 176, 176); /* color de fondo */
-    border-radius: 60%; /* redondea los bordes de la figura*/
+    border-radius: 100%; /* redondea los bordes de la figura*/
     border: 3px solid rgb(112, 112, 112); /* borde de la figura: grosor, estilo, color */
     position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
     top: 155px; /* posición desde el borde superior del lienzo */
     left: 70px; /* posición desde el borde izquierdo del lienzo */
     transform:rotate(10deg);
 }
+.ovalo2:hover {
+    cursor: pointer;
+    background-color: rgb(255, 218, 249);
+}
 .ovalo {
     width: 140px; /* ancho */
     height: 230px; /* alto */
     background-color: rgb(174, 176, 176); /* color de fondo */
-    border-radius: 60%; /* redondea los bordes de la figura*/
+    border-radius: 100%; /* redondea los bordes de la figura*/
     border: 3px solid rgb(112, 112, 112); /* borde de la figura: grosor, estilo, color */
     position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
     top: 155px; /* posición desde el borde superior del lienzo */
     left: 470px; /* posición desde el borde izquierdo del lienzo */
     transform:rotate(-10deg);
 }
+.ovalo:hover {
+    cursor: pointer;
+background-color: rgb(255, 218, 249);
+}
+
+
 .patita1 {
     width: 150px; /* ancho */
     height: 120px; /* alto */
@@ -142,6 +174,21 @@ position: relative;
     top: 100px; /* posición desde el borde superior del lienzo */
     left: 145px; /* posición desde el borde izquierdo del lienzo */
 }
+.bola {
+     width: 80px; /* ancho */
+    height: 80px; /* alto */
+    background-color: rgb(174, 176, 176); /* color de fondo */
+    border-radius: 60%; /* redondea los bordes de la figura*/
+    border: 3px solid rgb(174, 176, 176); /* borde de la figura: grosor, estilo, color */
+    position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
+    top: 300px;
+    left: 295px;
+}
+.bola:hover {
+    background-color: red;
+    border-radius: 60%;
+    border: 3px solid rgb(104, 98, 98);
+}
 .ojo1 {
      width: 80px; /* ancho */
     height: 80px; /* alto */
@@ -151,8 +198,8 @@ position: relative;
     position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
     top: 220px;
     left: 210px;
-
 }
+
 .ojo2 {
  width: 80px; /* ancho */
     height: 80px; /* alto */

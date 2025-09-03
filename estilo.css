@@ -3,8 +3,8 @@ body
 h1
 {color: rgb(253, 24, 143);}
 .parrafo
-{color: aliceblue;
-background-color: blueviolet;}
+{color: rgb(12, 122, 219);}
+
 #holi 
 {color: aqua;}
 
@@ -74,6 +74,19 @@ background-color: blueviolet;}
           margin: 23px
     }
 }
+
+
+.titulo{
+  font-family: "Ultra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.titulo :hover {
+    color: rgb(255, 48, 210);
+    font: 1000;
+    font-weight: 600;
+}
+
 
 /***********************/
 /* Estilo dibujo*/
